@@ -1,0 +1,19 @@
+server:
+  addr: ":8080"
+  read_timeout: 10s
+  write_timeout: 10s
+
+wework:
+  corp_id: "your_corp_id"
+  token: "your_callback_token"
+  encoding_aes_key: "your_43_char_encoding_aes_key"
+  agent_id: 1000002
+
+ai:
+  base_url: "http://ai-assistant:8080"
+  timeout: 5s
+  retry: 2
+
+log:
+  level: "info"
+  format: "json"
